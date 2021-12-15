@@ -643,6 +643,13 @@
     jsonc-parser "3.0.0"
     pluralize "8.0.0"
 
+"@nestjs/serve-static@^2.2.2":
+  version "2.2.2"
+  resolved "https://registry.nlark.com/@nestjs/serve-static/download/@nestjs/serve-static-2.2.2.tgz#8e9dc2fc6c042ddac5133b957d6bc25d9f8fa225"
+  integrity sha1-jp3C/GwELdrFEzuVfWvCXZ+PoiU=
+  dependencies:
+    path-to-regexp "0.1.7"
+
 "@nestjs/testing@^8.0.0":
   version "8.2.3"
   resolved "https://registry.npmmirror.com/@nestjs/testing/download/@nestjs/testing-8.2.3.tgz#e96a939e147b066ccfac45504f5b8b74536f79b0"
@@ -803,7 +810,7 @@
     "@types/qs" "*"
     "@types/range-parser" "*"
 
-"@types/express@^4.17.13":
+"@types/express@*", "@types/express@^4.17.13":
   version "4.17.13"
   resolved "https://registry.npmmirror.com/@types/express/download/@types/express-4.17.13.tgz#a76e2995728999bab51a33fabce1d705a3709034"
   integrity sha1-p24plXKJmbq1GjP6vOHXBaNwkDQ=
@@ -861,6 +868,13 @@
   version "1.3.2"
   resolved "https://registry.npmmirror.com/@types/mime/download/@types/mime-1.3.2.tgz?cache=0&sync_timestamp=1637267582862&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40types%2Fmime%2Fdownload%2F%40types%2Fmime-1.3.2.tgz#93e25bf9ee75fe0fd80b594bc4feb0e862111b5a"
   integrity sha1-k+Jb+e51/g/YC1lLxP6w6GIRG1o=
+
+"@types/multer@^1.4.7":
+  version "1.4.7"
+  resolved "https://registry.npmmirror.com/@types/multer/download/@types/multer-1.4.7.tgz#89cf03547c28c7bbcc726f029e2a76a7232cc79e"
+  integrity sha1-ic8DVHwox7vMcm8Cnip2pyMsx54=
+  dependencies:
+    "@types/express" "*"
 
 "@types/node@*", "@types/node@^16.0.0":
   version "16.11.13"
