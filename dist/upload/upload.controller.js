@@ -16,12 +16,12 @@ exports.UploadController = void 0;
 const common_1 = require("@nestjs/common");
 const platform_express_1 = require("@nestjs/platform-express");
 const fs_1 = require("fs");
-const node_path_1 = require("node:path");
+const path_1 = require("path");
 let UploadController = class UploadController {
     async uploadFile(file, res) {
         console.log(file);
         const imgname = file.originalname;
-        const writeImage = (0, fs_1.createWriteStream)((0, node_path_1.join)(__dirname, '..', '../public/upload', `${imgname}`));
+        const writeImage = (0, fs_1.createWriteStream)((0, path_1.join)(__dirname, '..', '../public/upload', `${imgname}`));
         await writeImage.write(file.buffer);
         res.send({
             code: 666,

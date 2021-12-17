@@ -9,7 +9,7 @@ import {
 import { FileInterceptor } from '@nestjs/platform-express';
 import { Response } from 'express';
 import { createWriteStream } from 'fs';
-import { join } from 'node:path';
+import { join } from 'path';
 
 @Controller('upload')
 export class UploadController {
